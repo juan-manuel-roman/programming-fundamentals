@@ -1,0 +1,27 @@
+{
+  "name": "programming-fundamentals",
+  "version": "1.0.0",
+  "description": "Programming Fundamentals in different programming languages",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juan-manuel-roman/programming-fundamentals.git"
+  },
+  "keywords": [
+    "programming",
+    "fundamentals"
+  ],
+  "author": "Juan Manuel Roman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juan-manuel-roman/programming-fundamentals/issues"
+  },
+  "homepage": "https://github.com/juan-manuel-roman/programming-fundamentals#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
