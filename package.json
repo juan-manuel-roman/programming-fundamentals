@@ -4,7 +4,8 @@
   "description": "Programming Fundamentals in different programming languages",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test_recursion": "mocha ./test/recursion_tests.js"
   },
   "repository": {
     "type": "git",
