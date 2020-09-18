@@ -12,13 +12,21 @@ describe('Tests for recursion class', function(){
   });
 
   it('Should perform a fibonacci', function(){
-    console.log(recursion.fibonacci(3))
-    console.log(recursion.fibonacci(8))
+    expect(recursion.fibonacci(3)).to.equal(2)
+    expect(recursion.fibonacci(4)).to.equal(3)
+    expect(recursion.fibonacci(5)).to.equal(5)
+    expect(recursion.fibonacci(6)).to.equal(8)
+    expect(recursion.fibonacci(7)).to.equal(13)
+    expect(recursion.fibonacci(8)).to.equal(21)
   });
 
   it('Should sum digits', function(){
-    console.log(recursion.sumDigits(123));
-    console.log(recursion.sumDigits(11111111));
+    expect(recursion.sumDigits(123)).to.equal(6);
+    expect(recursion.sumDigits(1)).to.equal(1);
+    expect(recursion.sumDigits(1024)).to.equal(7);
+    expect(recursion.sumDigits(9999)).to.equal(36);
+    expect(recursion.sumDigits(256)).to.equal(13);
+    expect(recursion.sumDigits(546)).to.equal(15);
   });
 });
 
