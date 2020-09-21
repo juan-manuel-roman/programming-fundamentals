@@ -70,6 +70,38 @@ class Recursion {
       sumDigits(0)   ::: RETURN 0
     */
   }
+
+  /**
+   * Performs the addition of the elements contained in the array
+   * Example:
+   *   sumArray( [1, 2, 3, 4] ) => 10 :: since 1 + 2 + 3 + 4 = 10;
+   * See more examples in the recursion tests.
+   */
+  sumArray(arrayElements){
+
+  }
+
+  /**
+   * Reverses a string content
+   * @param {String} string The string to be reversed
+   * Example:
+   *  reverseString("Hello") => "olleH"
+   * More examples available at recursion tests.
+   */
+  reverseString(string){
+
+  }
+
+  /**
+   * Sets the elements of an array in reverse order
+   * @param {Array} array The array to reverse
+   * Example:
+   *   reverseArray([1, 2, 3]) => [3, 2, 1]
+   * More examples available at recursion tests.
+   */
+  reverseArray(array){
+
+  }
 }
 
 module.exports = Recursion;
